@@ -23,7 +23,11 @@ module.exports = function (grunt) {
         layoutdir: '<%= path.src %>/layouts',
         partials: ['<%= path.src %>/partials/*.hbs'],
         helpers: [
-        ]
+          'handlebars-helper-repeat',
+          'handlebars-helper-prettify'
+        ],
+        prettify: {
+        }
       },
       all: {
         options: {
