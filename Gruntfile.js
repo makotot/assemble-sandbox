@@ -26,6 +26,11 @@ module.exports = function (grunt) {
           'handlebars-helper-repeat',
           'handlebars-helper-prettify'
         ],
+        plugins: [
+          'assemble-middleware-sitemap'
+        ],
+        sitemap: {
+        },
         prettify: {
         }
       },
