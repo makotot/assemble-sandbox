@@ -1,16 +1,16 @@
 {
   "name": "assemble-sandbox",
   "version": "0.0.1",
-  "description": "",
+  "description": "sandbox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/makotot/assemble-sandbox.git"
   },
-  "author": "",
+  "author": "makotot",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/makotot/assemble-sandbox/issues"
