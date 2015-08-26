@@ -60,7 +60,8 @@ module.exports = function (grunt) {
           watchTask: true,
           server: {
             baseDir: '<%= path.env %>'
-          }
+          },
+          open: false
         },
         bsFiles: {
           src: [
