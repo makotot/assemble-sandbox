@@ -22,6 +22,9 @@ module.exports = function (grunt) {
       options: {
         layoutdir: '<%= path.src %>/layouts',
         partials: ['<%= path.src %>/partials/*.hbs'],
+        plugins: [
+          'assemble-unused-partials'
+        ],
         helpers: [
           'handlebars-helper-repeat',
           'handlebars-helper-prettify'
