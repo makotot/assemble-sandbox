@@ -18,6 +18,10 @@ module.exports = function (grunt) {
       all: ['<%= path.env %>']
     },
 
+    eslint: {
+      target: ['./Gruntfile.js']
+    },
+
     assemble: {
       options: {
         layoutdir: '<%= path.src %>/layouts',
@@ -76,6 +80,6 @@ module.exports = function (grunt) {
   });
 
 
-  grunt.registerTask('default', ['clean']);
+  grunt.registerTask('default', ['clean', 'eslint']);
   grunt.registerTask('serve', ['clean', 'assemble', 'browserSync', 'watch']);
 };
