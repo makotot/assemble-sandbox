@@ -34,6 +34,7 @@ module.exports = function (grunt) {
           'handlebars-helper-prettify'
         ],
         prettify: {
+          unformatted: ['br']
         }
       },
       all: {
