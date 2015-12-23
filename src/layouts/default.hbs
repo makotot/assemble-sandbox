@@ -11,6 +11,11 @@
 		{{> body }}
 
 		{{> footer }}
+
+		{{# scripts }}
+		<script src="./js/{{ . }}.js"></script>
+		{{/ scripts}}
+
 	</body>
 </html>
 {{/ prettify }}
